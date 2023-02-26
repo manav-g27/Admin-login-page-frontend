@@ -1,0 +1,129 @@
+.main-div
+{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50%;
+    background-color: #EFEFEF;
+    height: 200px;
+    width: 200px;
+}
+
+#image-container img
+{
+    height: 100px;
+    width: 100px;
+}
+
+#form-container h1
+{
+    font-family:OpenSans-Bold;
+    font-weight: bold;
+    font-size: 64px;
+    color: #0B3558;
+    line-height: 20px;
+    text-align: center;
+}
+
+#desc p
+{
+    color: #0B3558;
+    text-align: center;
+    line-height: 6px;
+    font-family: OpenSans-normal;
+}
+
+#desc
+{
+    margin-bottom: 25px;
+}
+
+#form-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 120%;
+}
+
+.SubmitBox input
+{
+background-color: #003FB9;
+color: #EFEFEF;
+border-radius: 4px;
+width: 100%;
+height: 41px;
+font-size: 19px;
+border-color: transparent;
+line-height: 33px;
+font-family: OpenSans-normal;
+}
+
+.SubmitBox
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputBox input
+{
+height: 30px;
+width: 100%;
+border-radius: 4px;
+border: 1px solid #A2A2A2;
+padding-left: 10px;
+box-sizing: border-box;
+}
+
+.inputBox input:focus
+{
+padding-left: 10px;
+outline:1px solid #A2A2A2;
+}
+
+.inputBox
+{
+    width: 100%;
+    
+}
+
+#margin
+{
+    margin-bottom: 10px;
+}
+
+#forgot_pswd 
+{
+    font-family:OpenSans-normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #0B3558;
+    width: 100%;
+    text-align: right;
+    line-height:0px;
+    margin-top: 10px;
+}
+
+#form-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+#home-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+#home-div h1
+{
+    color: #003FB9;
+    font-family: OpenSans-Bold;
+}
